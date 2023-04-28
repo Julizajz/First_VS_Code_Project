@@ -11,14 +11,16 @@ html{
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(../images/bordercolli_field.jpg);
-    background-size: cover;
     height: 100%;
     width: 100%;
+
+
 }
 
 main{
     text-align: center;
+    background-image: url(../images/bordercolli_field.jpg);
+    background-size: cover;
     background-color: rgba(0,0,0,0.5);
     height: 100%;
     width: 100%;
@@ -34,6 +36,7 @@ main h1{
 
 main p {
     margin: 1rem 0;
+    margin-bottom: 2.6rem;
 }
 
 .btn{
@@ -42,5 +45,10 @@ main p {
     padding: 0.75rem 2rem;
     background-color: #fff;
     margin-top: 0.2rem;
+    border-radius: 10px;
 
+}
+
+.btn:hover{
+    background-color: bisque;
 }
