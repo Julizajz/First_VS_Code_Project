@@ -6,6 +6,11 @@
 
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #333 url(/images/bordercolli_field.jpg) no-repeat
+      center center/cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("/images/bordercolli_field.jpg");
+      height: 100vh;
     
   }
 
@@ -22,11 +27,12 @@
   }
 
   header h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   header p {
     margin: 1rem 0;
+    font-size: 18px;
   }
 
   .btn {
@@ -43,4 +49,93 @@
     background-color: #ffce88;
     transform: scale(1.1);
     
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("/images/mountain-range-sweden.jpg");
+   
+  }
+
+  .section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-container{
+    height: 500px;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+  }
+
+
+
+  .section-container img{
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  .about-me-container{
+    height: 550px;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .about-me-container .header-title{
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid bisque;
+    font-size: 40px;
+  }
+
+  .about-me-container ul li{
+    list-style: none;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 20px;
+  }
+
+  .contact-info{
+    margin-top: 4rem;
+   
+  }
+
+  .contact-info p{
+    border-bottom: 1px solid bisque;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .contact-info .social{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-info .socials a i{
+    color: #333;
+    padding: 10px;
+  
+  
+  }
+  
+  .social .fab {
+
+    line-height: 20px;
+    text-align: center;
+    padding: 0.5rem;
+    color: #333;
   }
